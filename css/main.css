@@ -8,7 +8,7 @@ html {
 
 h1 {
   font-size: 1.5rem;
-  font-family: PT sans;
+  font: PT sans;
   font-style: bold;
   line-height: 1.5;
   color: #3f1622;
