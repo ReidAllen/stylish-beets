@@ -16,32 +16,74 @@ h1,h2 {
   font-size: 1.5rem;
 }
 
+img {
+  width: 100%;
+}
+
 nav a {
   font-family: "PT Sans", sans-serif;
-  color: #8f2440;
   font-size: 1.125rem;
   text-decoration: none;
 }
 
+a:hover {
+  color: #8f2440;
+  text-decoration: underline;
+}
+
 nav ol {
+  font-weight: bold;
+  color: #8f2440;
   list-style-type: none;
 }
 
 figcaption {
+  font-style: italic;
   text-align: center;
 }
 
-main + p {
+figure + p {
   font-weight: bold;
   font-size: 1.125rem;
+  text-align: left;
 }
 
-blockquote + p {
+blockquote {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: normal;
 }
 
-h2 + ol {
+strong {
+  font-weight: normal;
+}
+
+cite {
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+}
+
+ol {
   list-style-type: lower-greek;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+.serving {
+  font-style: italic;
+}
+
+dl dt {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+}
+
+aside ul {
+list-style-type: circle;
 }
