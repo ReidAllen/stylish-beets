@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: PT serif;
+  line-height: 1.5;
+}
