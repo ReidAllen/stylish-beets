@@ -3,7 +3,7 @@ html {
   line-height: 1.5;
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 *, *::before, *::after {
@@ -87,5 +87,3 @@ dl dt {
 aside ul {
   list-style-type: circle;
 }
-
-hello i dont know what is happening
